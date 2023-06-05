@@ -1,0 +1,290 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(223, 225, 226);
+}
+
+.main{
+
+    display: flex;
+    justify-content: space-around;
+    /* inset: 1; */
+    height: 100%;
+    width: 100%;
+    margin-top: 8%;
+    flex-direction: row;
+    align-items:center ;
+    /* display: none; */
+}
+
+.right{
+
+    height: 350px;
+    width: 800px;
+    background-color: transparent
+
+
+    
+}
+
+.right h1{
+
+font-size: 80px;
+color: rgba(6, 91, 248, 0.92);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.right h3{
+    font-size: 35px;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(0, 0, 0, 0.766);
+
+}
+
+.signup{
+    height: 500px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.728);
+    box-shadow: 1px 2px 2px 4px rgba(0, 0, 0, 0.071);
+    border-radius: 10px;
+
+
+}
+
+.signup input{
+     
+height: 65px;
+width: 500px;
+border-radius: 10px;
+margin-top: 40px;
+margin-left: 25px;
+font-size: 20px;
+
+}
+
+.signup .button{
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 40px;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(51, 88, 233, 0.934);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.signup a {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.hr{
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 40px;
+    opacity: 0.4;   
+}
+
+.signup .Createnewaccount{
+    height: 70px;
+    width: 300px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 130px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(4, 206, 4, 0.934);
+    border: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.bottomline{
+ 
+ margin-top: 20px;
+ 
+ font-size: 20px; 
+
+}
+.rightDiv{
+    text-align: center;
+}
+
+
+            /*  modal wrapper */
+
+
+
+.modal_wrapper{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.681);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+    
+}
+
+.modal_contianer{
+
+background-color: rgb(253, 253, 254);
+position: absolute;
+height: 600px;
+width: 450px;
+border-radius: 10px;
+box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.217);
+/* display: none; */
+}
+.modal_contianer h1 {
+    font-size: 30px;
+    margin-left: 12px;
+    margin-top: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.modal_contianer h3{
+    font-size: 15px;
+    margin-left: 12px;
+    opacity: 70%;
+}
+
+.flexbox .twobox {
+    display: grid;
+    grid-template-columns: 200px 200px; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 500px;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+.flexbox .twobox input{
+    height: 35px;
+    border-radius: 4px;
+    width: 205px;
+    margin-bottom: 5px;
+    outline-style: none;
+    border: 10px rgba(0, 0, 0, 0.071);
+    background-color: rgba(234, 234, 234, 0.523);
+
+}
+.flexbox .thirdbox input{
+    height: 36px;
+    width: 420px;
+    margin-left: 15px;
+    border-radius: 4px;
+    outline-style: none;
+    border: 10px rgba(0, 0, 0, 0.071);
+    background-color: rgba(234, 234, 234, 0.523);
+
+}
+
+.flexbox .fourthbox input{
+   
+    height: 36px;
+    width: 420px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline-style: none;
+    border: 10px rgba(0, 0, 0, 0.071);
+    background-color: rgba(234, 234, 234, 0.523);
+    
+}
+
+.birthdate{
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+/* .secondbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    
+}
+
+.secondbox .sbox{
+    justify-content: center;
+    align-items: center;
+}
+
+.secondbox .sbox input{
+    height: 30px;
+    width: 120px;
+    margin-left: 15px;
+    border-radius: 3px;
+
+}*/
+
+.gender{
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+     font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    margin-top: 15px;
+} 
+
+.alldropdown{
+    display: flex;
+    justify-content: space-around;
+}
+
+.alldropdown .dropdown .width{
+    width: 110px;
+    background: transparent;
+    color: black;
+    font-size: 15px;
+    
+}
+
+.radiobutton{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.buttompara{
+    font-size: 11px;
+    padding-left: 10px;
+    opacity: 70%;
+    
+}
+
+.lastbutton{
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 113px; 
+    color: rgb(255, 255, 255);
+    background-color: rgba(4, 206, 4, 0.934);
+    border: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
