@@ -60,7 +60,8 @@
             it,s quick and easy.
           </h3>
         </div>
-        <span class="cross">X</span>
+        <button><span class="cross">X</span></button>
+        <!-- <button type="button" class="btn-close" class="cross"  aria-label="Close"></button> -->
       </div>
       <hr>
       <div class="flexbox">
@@ -78,7 +79,7 @@
             style="padding: 10px;"></div>
 
 
-        <div class="fourthbox"> <input type="text" placeholder="New Password" class="newPassword"
+        <div class="fourthbox"> <input type="password" placeholder="New Password" class="newPassword"
             style="padding: 10px;">
         </div>
 
@@ -108,12 +109,12 @@
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" onclick="getDateHandler(January)" href="#">January</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(february)" href="#">february</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(March)" href="#">March</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(April)" href="#">April</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(May)" href="#">May</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(June)" href="#">June</a></li>
+              <li><a class="dropdown-item" onclick="getMonthHandler('January')" href="#">January</a></li>
+              <li><a class="dropdown-item" onclick="getMonthHandler('february')" href="#">february</a></li>
+              <li><a class="dropdown-item" onclick="getMonthHandler('March')" href="#">March</a></li>
+              <li><a class="dropdown-item" onclick="getMonthHandler('April')" href="#">April</a></li>
+              <li><a class="dropdown-item" onclick="getMonthHandler('May')" href="#">May</a></li>
+              <li><a class="dropdown-item" onclick="getMonthHandler('June')" href="#">June</a></li>
 
             </ul>
           </div>
@@ -124,12 +125,12 @@
             </a>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" onclick="getDateHandler(2000)" href="#">2000</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(2001)" href="#">2001</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(2002)" href="#">2002</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(2003)" href="#">2003</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(2004)" href="#">2004</a></li>
-              <li><a class="dropdown-item" onclick="getDateHandler(2005)" href="#">2005</a></li>
+              <li><a class="dropdown-item" onclick="getYearHandler(2000)" href="#">2000</a></li>
+              <li><a class="dropdown-item" onclick="getYearHandler(2001)" href="#">2001</a></li>
+              <li><a class="dropdown-item" onclick="getYearHandler(2002)" href="#">2002</a></li>
+              <li><a class="dropdown-item" onclick="getYearHandler(2003)" href="#">2003</a></li>
+              <li><a class="dropdown-item" onclick="getYearHandler(2004)" href="#">2004</a></li>
+              <li><a class="dropdown-item" onclick="getYearHandler(2005)" href="#">2005</a></li>
 
             </ul>
           </div>
@@ -141,13 +142,14 @@
 
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1 "
+            onclick="getGenderHandler('Male')">
               Male
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-            <label class="form-check-label" for="flexRadioDefault2">
+            <label class="form-check-label" for="flexRadioDefault2" onclick="getGenderHandler('Female')">
               Female
             </label>
           </div>

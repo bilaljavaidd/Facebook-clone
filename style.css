@@ -130,14 +130,14 @@ font-size: 20px;
 
 
 .modal_wrapper{
-    position: fixed;
-    left: 0;
+    position: absolute;
     top: 0;
-    right: 0;
     bottom: 0;
-    height: 100vh;
+    left: 0;
+    right: 0;
+    height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.681);
+    background-color: rgba(216, 216, 216, 0.681);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,15 +145,19 @@ font-size: 20px;
     
 }
 .upperDiv{
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-.upperDiv span{
+.upperDiv button {
     cursor: pointer;
+    margin-left: 12;
 }
 
 .modal_contianer{
 
+
+left: 30%;
+top: 15%;
 background-color: rgb(253, 253, 254);
 position: absolute;
 height: 600px;
@@ -163,12 +167,14 @@ box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.217);
 margin-left: 100px;
 margin-bottom: 100%  !important;
 /* display: none; */
+
+
 }
 .modal_contianer h1 {
     font-size: 30px;
     margin-left: 12px;
     margin-top: 7px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .modal_contianer h3{

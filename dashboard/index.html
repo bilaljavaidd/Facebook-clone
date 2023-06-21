@@ -1,59 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dashboard</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Quicksand:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="dashboard">
-    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Facebook</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRvT59urBwJHSQXaH3g7IlcOkYg6qgN252OhLouqTxZ66ROulvZ_5Xs1LnMgUG_h_JCP8&usqp=CAU"  alt="" class="image" >
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-             
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+  <div class="dashboard">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary coustomnav">
+      <div class="container-xxl main">
+
+        <div class="iconleft">
+          <a class="navbar-brand" href="#"><img width="48" height="48"
+              src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new" /></a>
+
+          <form class="d-flex" role="search">
+
+            <input class="form-control me-2 searchbar" type="search" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn" type="submit"></button> -->
+          </form>
+
         </div>
-      </nav>
-
-</div>
 
 
-    
-    
-</body><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body><script src="app.js"></script>
+
+        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+
+        <div class="centericone">
+
+
+          <li class="nav-item d-flex iconcolour">
+
+            <a class="nav-link active" aria-current="page" href="#"><img
+                style="background-color: rgba(253, 254, 255, 0.988); border-radius: 50%; " width="40" height="40"
+                src="https://img.icons8.com/sf-regular-filled/48/home-page.png" alt="home-page" /></a>
+
+
+            <a class="nav-link active" aria-current="page" href="#"><img
+                style="background-color: rgba(253, 254, 255, 0.988); border-radius: 50%; " width="40" height="40"
+                src="https://img.icons8.com/sf-ultralight/50/tv-show.png" alt="tv-show" /></a>
+
+
+            <a class="nav-link active" aria-current="page" href="#"><img
+                style="background-color: rgba(253, 254, 255, 0.988); border-radius: 50%; " width="40" height="40"
+                src="https://img.icons8.com/fluency-systems-filled/48/stall.png" alt="stall" /></a>
+
+
+            <a class="nav-link active" aria-current="page" href="#"><img
+                style="background-color: rgba(253, 254, 255, 0.988); border-radius: 50%; " width="40" height="40"
+                src="https://img.icons8.com/ios-filled/50/conference-call.png" alt="conference-call" /></a>
+
+
+            <a class="nav-link active" aria-current="page" href="#"><img
+                style="background-color: rgba(253, 254, 255, 0.988); border-radius: 50%; " width="40" height="40"
+                src="https://img.icons8.com/ios/50/xbox-controller.png" alt="xbox-controller" /></a>
+
+          </li>
+
+        </div>
+
+        <!-- <li class="nav-item">
+
+                  <a class="nav-link" href="#">Link</a>
+
+              </li> -->
+        <div class="sideicon">
+          <li class="nav-item dropdownd d-flex loginicon">
+
+            <a class="nav-link" href="#"> <img
+                style="background-color: rgba(253, 254, 255, 0.988); border-radius: 50%; " width="40" height="40"
+                src="https://img.icons8.com/ios/50/circled-menu.png" alt="circled-menu" /></a>
+
+            <a class="nav-link dropdown-toggle logindrop " href="#"
+              style="background-color: rgba(253, 254, 255, 0.988); border-radius: 50%; " role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRvT59urBwJHSQXaH3g7IlcOkYg6qgN252OhLouqTxZ66ROulvZ_5Xs1LnMgUG_h_JCP8&usqp=CAU"
+                width="20" height="20" alt="" class="image">
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile View</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <hr>
+              <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>
+          </li>
+          </ul>
+
+
+        </div>
+
+      </div>
+    </nav>
+
+  </div>
+
+<!-- Body -->
+
+  <div class="flexboxmain">
+
+    <div class="leftdiv">
+
+      <div class="itemImgName">
+
+
+        <h1>Left div</h1>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+    <!-- center posting area -->
+
+
+
+
+
+    <div class="centerdivmain">
+
+      <div class="upperdiv">
+
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRvT59urBwJHSQXaH3g7IlcOkYg6qgN252OhLouqTxZ66ROulvZ_5Xs1LnMgUG_h_JCP8&usqp=CAU"
+          width="25" height="25" alt="" class="image" style="border-radius: 50px;">
+
+
+        <input type="text" class="inputbar" placeholder="Type whats on your mind?">
+
+        <button onclick="posthandler()">Post</button>
+
+        <hr style="color: aliceblue;">
+
+        <div class="upperdivemoji">
+
+          <img width="48" height="48" src="https://img.icons8.com/fluency/48/video-call.png" alt="video-call" /> <button
+            style="width: 100%;">liveVideo</button>
+
+          <img width="48" height="48" src="https://img.icons8.com/fluency/48/stack-of-photos.png"
+            alt="stack-of-photos" /> <button style="width: 100%;">Photo/Video</button>
+
+          <img width="48" height="48" src="https://img.icons8.com/fluency/48/happy.png" alt="happy" /> <button
+            style="width: 100%;">Feeling/activites</button>
+
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+      <!-- posting area  -->
+
+
+
+      <div class="postingarea  container">
+        <div class="pictureButtons">
+
+        <div class="postingupperdiv">
+          <div class=" d-flex">
+
+            <div class="profilepostimg">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRvT59urBwJHSQXaH3g7IlcOkYg6qgN252OhLouqTxZ66ROulvZ_5Xs1LnMgUG_h_JCP8&usqp=CAU"
+                width="25" height="25" alt="" class="image" style="border-radius: 50px;">
+            </div>
+
+            <div class="postNameDateTime">
+              <h3 class="profilename">Bilal Javaid</h3>
+              <span class="span1">2023-06-18</span> <span>at</span>
+              <span>1:47 Am</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="posteditbutton d-flex">
+
+          <img width="64" height="64" src="https://img.icons8.com/windows/64/menu-2.png" alt="menu-2" />
+          <img width="64" height="64" src="https://img.icons8.com/small/64/delete-sign.png" alt="delete-sign" />
+
+
+        </div>
+      </div>
+
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="rightdiv">
+
+      <h1>right div</h1>
+
+    </div>
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
 </html>
