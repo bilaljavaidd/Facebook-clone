@@ -14,9 +14,12 @@ body{
 }
 
 .coustomnav{
-    background-color: rgb(37, 35, 35) !important ;
+    background-color: rgb(34, 32, 32) !important ;
     color: black;
     height: 60px;
+    width: 100%;
+    
+    
 }
 
 .iconcolour a img{
@@ -24,12 +27,15 @@ body{
 }
 
 .centericone{
+
     display: flex;
     justify-content: center;
+
 }
 
 .iconleft{
     display: flex;
+    width: 100%;
     
 }
 
@@ -39,16 +45,20 @@ body{
     height: 40px;
     align-items: center;
     margin-top: 8px;
-    margin-right: px;
+    margin-right: ;
     width: 95%;
     
 }
 
+.dashboard{
+    width: 100%;
+}
+
 .main{
-    display: flex !important;
-    justify-content: space-between !important ;
-    align-items: center !important;
-    border: 2px solid green
+    display: flex !important ;
+    justify-content: space-around !important ;
+    align-items: center !important ;
+    width: 100%;
 }
 
 .centericone{
@@ -67,7 +77,7 @@ body{
 
 .sideicon{
 width: 6%;
-border : 2px solid green
+margin-left: 10%;
 
 }
 
@@ -100,7 +110,6 @@ border : 2px solid green
      background-color: rgb(88, 82, 82);
      width: 100%;
      height: 14vh;
-     margin-top: 10px;
      width: 100%;
      border-radius: 10px;
      padding-top: 10px; 
@@ -115,6 +124,7 @@ border : 2px solid green
     
     
     width: 40%;
+    background-color: rgba(66, 64, 64, 0.454);
    
 }
 
@@ -122,9 +132,11 @@ border : 2px solid green
 .rightdiv{
   
     height: 100vh;
-    background-color: rgba(14, 13, 13, 0.775);
+    background-color: rgba(54, 52, 52, 0.846);
     width: 30%;
     padding: 30px;
+    display: flex;
+    justify-content: flex-end;
 
 
 }
@@ -152,8 +164,9 @@ border : 2px solid green
 
 .upperdivemoji{
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
     
 }
 
@@ -237,11 +250,97 @@ border : 2px solid green
     /* border: 2px solid green; */
     
 
-    
 }
 
 
 .posteditbutton img{
     height: 25px;
     width: 23px;
+}
+
+.leftdiv{
+
+    margin-left: 0;
+    margin-top: 0%;
+    background-color: rgb(53, 51, 51);
+    padding-left: 1%;
+}
+
+
+.images span{
+
+    color: rgb(255, 255, 255);
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+  /* margin-left: 100px; */
+  background-color: rgba(250, 250, 250, 0);
+  width: 200px;
+  height: 70%;
+  margin-left: 0;
+  margin-top: 0%;
+  padding-left: 0;
+    /* margin-right: 1000px; */
+
+
+}
+
+.singleimg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 120px;
+
+}
+
+.threeicon img{
+    z-index: 1;
+    color: aliceblue;
+    
+}
+
+
+.rightdivnav h1{
+    color: aliceblue;
+    font-size: large;
+}
+
+.rightdivnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.profileonline {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    gap: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+   
+}
+
+.profileonline img{
+    background-color: aliceblue;
+    border-radius: 50%;
+    
+}
+
+.sidediv{
+     width: 70%;
+}
+
+.profileonline span{
+    color: aliceblue;
+    margin-left: 10px;
+    align-items: center;
 }
