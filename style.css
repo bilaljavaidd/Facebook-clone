@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(223, 225, 226);
 }
 
-.main{
+.main {
 
     display: flex;
     justify-content: space-around;
@@ -17,36 +17,35 @@ body{
     width: 100%;
     margin-top: 8%;
     flex-direction: row;
-    align-items:center ;
+    align-items: center;
     /* display: none; */
 }
 
-.right{
+.right {
 
     height: 350px;
     width: 800px;
     background-color: transparent
-
-
-    
 }
 
-.right h1{
 
-font-size: 80px;
-color: rgba(6, 91, 248, 0.92);
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.right h1 {
+
+    font-size: 80px;
+    color: rgba(6, 91, 248, 0.92);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-.right h3{
-    font-size: 35px;;
+.right h3 {
+    font-size: 35px;
+    ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(0, 0, 0, 0.766);
 
 }
 
-.signup{
+.signup {
     height: 500px;
     width: 550px;
     background-color: rgba(255, 255, 255, 0.728);
@@ -56,18 +55,18 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-.signup input{
-     
-height: 65px;
-width: 500px;
-border-radius: 10px;
-margin-top: 40px;
-margin-left: 25px;
-font-size: 20px;
+.signup input {
+
+    height: 65px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 20px;
 
 }
 
-.signup .loginBtn{
+.signup .loginBtn {
     height: 60px;
     width: 500px;
     border-radius: 10px;
@@ -79,7 +78,7 @@ font-size: 20px;
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
-    
+
 }
 
 
@@ -93,14 +92,14 @@ font-size: 20px;
 
 }
 
-.hr{
+.hr {
     width: 90%;
     margin-left: 25px;
     margin-top: 40px;
-    opacity: 0.4;   
+    opacity: 0.4;
 }
 
-.signup .Createnewaccount{
+.signup .Createnewaccount {
     height: 70px;
     width: 300px;
     border-radius: 8px;
@@ -113,23 +112,28 @@ font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.bottomline{
- 
- margin-top: 20px;
- 
- font-size: 20px; 
+.bottomline {
+
+    margin-top: 20px;
+
+    font-size: 20px;
 
 }
-.rightDiv{
+
+.rightDiv {
     text-align: center;
 }
 
 
-            /*  modal wrapper */
+/*  modal wrapper */
+
+.centerSignUpPgae {
+    display: none;
+}
 
 
-
-.modal_wrapper{
+.modal_wrapper {
+    /* display: none; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -141,35 +145,38 @@ font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* display: none; */
-    
+    display: none;
+
 }
-.upperDiv{
+
+.upperDiv {
     justify-content: space-between;
     align-items: center;
 }
+
 .upperDiv button {
     cursor: pointer;
     margin-left: 12;
 }
 
-.modal_contianer{
+.modal_contianer {
 
 
-left: 30%;
-top: 15%;
-background-color: rgb(253, 253, 254);
-position: absolute;
-height: 600px;
-width: 450px;
-border-radius: 10px;
-box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.217);
-margin-left: 100px;
-margin-bottom: 100%  !important;
-/* display: none; */
+    left: 30%;
+    top: 15%;
+    background-color: rgb(253, 253, 254);
+    position: absolute;
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.217);
+    margin-left: 100px;
+    margin-bottom: 100% !important;
+    /* display: none; */
 
 
 }
+
 .modal_contianer h1 {
     font-size: 30px;
     margin-left: 12px;
@@ -177,7 +184,7 @@ margin-bottom: 100%  !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.modal_contianer h3{
+.modal_contianer h3 {
     font-size: 15px;
     margin-left: 12px;
     opacity: 70%;
@@ -185,7 +192,7 @@ margin-bottom: 100%  !important;
 
 .flexbox .twobox {
     display: grid;
-    grid-template-columns: 200px 200px; 
+    grid-template-columns: 200px 200px;
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -193,9 +200,10 @@ margin-bottom: 100%  !important;
     border-radius: 500px;
     margin-top: 10px;
     margin-right: 5px;
-    
+
 }
-.flexbox .twobox input{
+
+.flexbox .twobox input {
     height: 35px;
     border-radius: 4px;
     width: 205px;
@@ -205,7 +213,8 @@ margin-bottom: 100%  !important;
     background-color: rgba(234, 234, 234, 0.523);
 
 }
-.flexbox .thirdbox input{
+
+.flexbox .thirdbox input {
     height: 36px;
     width: 420px;
     margin-left: 15px;
@@ -216,8 +225,8 @@ margin-bottom: 100%  !important;
 
 }
 
-.flexbox .fourthbox input{
-   
+.flexbox .fourthbox input {
+
     height: 36px;
     width: 420px;
     margin-left: 15px;
@@ -226,10 +235,10 @@ margin-bottom: 100%  !important;
     outline-style: none;
     border: 10px rgba(0, 0, 0, 0.071);
     background-color: rgba(234, 234, 234, 0.523);
-    
+
 }
 
-.birthdate{
+.birthdate {
     font-size: 13px;
     font-family: 'Quicksand', sans-serif;
     color: rgb(0, 0, 0);
@@ -237,74 +246,51 @@ margin-bottom: 100%  !important;
     margin-top: 9px;
 }
 
-/* .secondbox{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    
-    
-}
-
-.secondbox .sbox{
-    justify-content: center;
-    align-items: center;
-}
-
-.secondbox .sbox input{
-    height: 30px;
-    width: 120px;
-    margin-left: 15px;
-    border-radius: 3px;
-
-}*/
-
-.gender{
+.gender {
     font-size: 15px;
     font-family: 'Cormorant Garamond', serif;
-     font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: rgb(0, 0, 0);
     margin-left: 15px;
     margin-top: 15px;
-} 
+}
 
-.alldropdown{
+.alldropdown {
     display: flex;
     justify-content: space-around;
 }
 
-.alldropdown .dropdown .width{
+.alldropdown .dropdown .width {
     width: 110px;
     background: transparent;
     color: black;
     font-size: 15px;
-    
+
 }
 
-.radiobutton{
+.radiobutton {
     display: flex;
     justify-content: space-around;
-    
-    
+
+
 }
 
-.buttompara{
+.buttompara {
     font-size: 11px;
     padding-left: 10px;
     opacity: 70%;
-    
+
 }
 
-.lastbutton{
+.lastbutton {
     height: 40px;
     width: 200px;
     border-radius: 8px;
     margin-top: 20px;
-    margin-left: 113px; 
+    margin-left: 113px;
     color: rgb(255, 255, 255);
     background-color: rgba(4, 206, 4, 0.934);
     border: none;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-
-
